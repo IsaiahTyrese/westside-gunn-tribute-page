@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+                }
+
+            .column {
+                flex: 25%;
+                max-width: 25%;
+                padding: 0 4px;
+                }
+
+            .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+            }
+
+            @media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+                }
+
+            @media screen and (max-width: 600px) {
+                .column {
+                    flex: 100%;
+                    max-width: 100%;
+                    }
+}
+        </style>
+
+    </head>
+    <body>
+        <div id='main'>
+        
+            <h1 id='title'>Westside Gunn</h1>
+
+            <div id='img-div'>
+                <div class='row'>
+                    <div class='column'></div>
+                    <img src='images/WESTSIDE_GUNN.jpg' alt='Westside Gunn HWH2' id='image'>
+                    <img src='images/WESTSIDE_GUNN2.jpg' alt='Westside Gunn cooling' id='image'>
+                    <img src='images/WESTSIDE_GUNN3.jpg' alt='Westside Gunn HWH2' id='image'>
+                </div>
+                <div class='column'>
+                    <img src='images/WESTSIDE_GUNN4.jpg' alt='Westside Gunn HWH2' id='image'>
+                    <img src='images/WESTSIDE_GUNN5.jpg' alt='Westside Gunn HWH2' id='image'>
+                    <img src='images/WESTSIDE_GUNN6.jpg' alt='Westside Gunn HWH2' id='image'>
+
+                </div>
+                <div class='column'></div>
+                <p id='img-caption'>Founder of Griselda Records</p>
+            </div>
+            <div id='tribute-info'>
+                   <p>Alvin Lamar Worthy (born July 27, 1982), known professionally as Westside Gunn, is an American rapper.</p> 
+                   <p>He is the brother of fellow rapper Conway The Machine.</p> 
+                   <p>In 2014, he founded the record label Griselda Records, and signed a deal with Eminem and Paul Rosenberg’s Shady Records in 2017.</p> 
+                   <p>On November 14, 2020, in an interview with Joe Budden, Gunn announced he had fulfilled his contractual obligations to Shady Records and had become an independent artist.</p> 
+            </div>
+            <a href='https://en.wikipedia.org/wiki/Westside_Gunn' target='_blank'>
+                Learn more about Westside Gunn.
+            </a>
+        </div>
+    </body>
+
+</html>
